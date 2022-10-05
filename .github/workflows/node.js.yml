@@ -43,7 +43,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3 # Checkout latest code
-    - uses: akhileshns/heroku-deploy@v3.12.12 # Name of the repository
+    - uses: prateekbalhara/CSD4553_CICDpipeline # Name of the repository
       with:
         #Heroku api key. I haved stored it in secrets with name as "HEROKU_API_KEY"
         heroku_api_key: ${{secrets.HEROKU_API_KEY}} 
