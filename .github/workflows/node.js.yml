@@ -33,7 +33,7 @@ jobs:
       run: npm install 
 
     - run: npm ci
-    - run: npm run build --if-presents
+    - run: npm run build --if-present
 
   # Code for deploying the project on Heroku
   deploy:
