@@ -49,5 +49,5 @@ jobs:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}} 
         heroku_app_name: "csd4553" #App name from Heroku
         heroku_email: "c0830002@mylambton.ca" # Your email id from Heroku Account
-        procfile: "web:node index.js
+        procfile: "web:node index.js"
 
