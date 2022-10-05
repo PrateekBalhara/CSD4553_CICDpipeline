@@ -42,7 +42,7 @@ jobs:
     - uses: PrateekBalhara/CSD4553_CICDpipeline # Name of the repository
       with:
         #Heroku api key. I haved stored it in secrets with name as "HEROKU_API_KEY"
-        heroku_api_key: {{secrets.HEROKU_API_KEY}} 
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}} 
         heroku_app_name: "csd4553" #App name from Heroku
         heroku_email: "c0830002@mylambton.ca" # Your email id from Heroku Account
 
