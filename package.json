@@ -1,0 +1,29 @@
+{
+  "name": "csd4553_cicdpipeline",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline for node.js project using GitHub Actions and Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrateekBalhara/CSD4553_CICDpipeline.git"
+  },
+  "keywords": [
+    "Heroku",
+    "Github",
+    "Actions",
+    "Node.js",
+    "Express"
+  ],
+  "author": "Prateek Balhara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrateekBalhara/CSD4553_CICDpipeline/issues"
+  },
+  "homepage": "https://github.com/PrateekBalhara/CSD4553_CICDpipeline#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
