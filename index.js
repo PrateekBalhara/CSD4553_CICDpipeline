@@ -7,10 +7,6 @@ server.get("/", function(req, res){
     res.send("Hello! This is the home page.");
 })
 
-//Callback Function
-function start(){
-    console.log("Server started on port 8080");
-}
 
 // Run Server on 8080 port
-server.listen(5000, start);
+server.listen(process.env.PORT || 5000);
