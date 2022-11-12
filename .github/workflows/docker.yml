@@ -44,8 +44,8 @@ jobs:
           context: ./
           # Note: tags has to be all lower-case
           tags: |
-            prateek830002/nodejs-image-demo:latest 
-            ghcr.io/prateek830002/nodejs-image-demo:latest
+            prateek830002/cloud:latest 
+            ghcr.io/prateek830002/cloud:latest
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/docker' }}
 
