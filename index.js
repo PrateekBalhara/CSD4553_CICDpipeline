@@ -4,7 +4,7 @@ var server = express();
 
 // Hnadling get request
 server.get("/", function(req, res){
-    res.send("Hello! This is the home page.");
+    res.send("HelloZ! This is the home page.");
 })
 
 
